@@ -15,16 +15,18 @@ Arkham Case Files 用 AI 解决这个问题：玩家打开 App 进入房间，AI
 | 前端 | React Native（TypeScript） |
 | 后端 | Python FastAPI |
 | AI | DeepSeek / Claude（待评估） |
-| 规则引擎 | CoC 7th，硬编码 + RAG 检索 |
+| 规则引擎 | CoC 7th，硬编码 |
 
 ## 开发状态
 
-> 🚧 **MS1（第 1-2 周）**：产品提案草案 + 架构骨架
+> **MS1（第 1-2 周）**：战略决策 + 首尾可跑版本
 
-- [x] 产品提案初稿
-- [ ] 架构骨架入库
-- [ ] 前端概念原型 → React Native 重建
-- [ ] AI 模型调研与选型
+- [x] 战略决策文档 v1.0 + 产品提案 v1.0 + 3 份窄提案
+- [x] API 契约文档（反向分析前端生成）
+- [x] 前端 10 屏交互原型（React 19 + Vite 8，Mock 模式可用）
+- [x] 后端 FastAPI 骨架 + DeepSeek AI 叙事集成（LWC）
+- [x] 前后端联调贯通（注册→房间→角色→大厅→AI 对话）
+- [ ] MS1 路演准备
 
 ## 团队
 
